@@ -1,0 +1,1 @@
+gcc -o rzd WinMain.cpp UdpSocket.cpp ChromaSDK.cpp -static -I. -I./ChromaSDK/inc -lws2_32 -lole32  -lmsvcrt -luser32 -lstdc++ -D UNICODE 
